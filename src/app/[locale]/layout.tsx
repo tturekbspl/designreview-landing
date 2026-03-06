@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DesignReview — Visual Feedback Platform",
+  title: "revievv",
   description:
     "Collect visual feedback on 3D models, PDFs, and images. Share a link, get pin-point comments.",
 };
