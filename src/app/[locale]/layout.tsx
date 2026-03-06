@@ -31,7 +31,7 @@ export default async function LocaleLayout({
   if (!isValidLocale(locale)) notFound();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
