@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { HeroVideo } from "./hero-video";
 
 interface HeroProps {
   dict: {
@@ -26,11 +27,7 @@ export function Hero({ dict }: HeroProps) {
           <a href="#flow">{dict.ctaSecondary}</a>
         </Button>
       </div>
-      <div className="mx-auto mt-16 max-w-4xl rounded-xl border bg-muted/50 p-8">
-        <div className="aspect-video rounded-lg bg-muted flex items-center justify-center text-muted-foreground">
-          App Screenshot Placeholder
-        </div>
-      </div>
+      <HeroVideo />
     </section>
   );
 }
