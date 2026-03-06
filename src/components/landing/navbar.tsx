@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
@@ -22,8 +23,8 @@ export function Navbar({ dict, locale, otherLocale }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link href={`/${locale}`} className="text-xl font-bold">
-          DesignReview
+        <Link href={`/${locale}`}>
+          <Image src="/logo.svg" alt="revievv" width={120} height={28} priority />
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">

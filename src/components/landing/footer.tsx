@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface FooterProps {
   dict: {
@@ -14,8 +15,8 @@ export function Footer({ dict, locale, otherLocale }: FooterProps) {
   return (
     <footer className="border-t py-12">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 sm:flex-row sm:justify-between sm:px-6">
-        <Link href={`/${locale}`} className="text-lg font-bold">
-          DesignReview
+        <Link href={`/${locale}`}>
+          <Image src="/logo.svg" alt="revievv" width={100} height={23} />
         </Link>
         <nav className="flex items-center gap-6 text-sm text-muted-foreground">
           <a href="#" className="hover:text-foreground transition-colors">
