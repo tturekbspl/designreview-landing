@@ -20,7 +20,7 @@ export function Hero({ dict }: HeroProps) {
       </p>
       <div className="mt-10 flex items-center justify-center gap-4">
         <Button size="lg" asChild>
-          <a href="https://app.designreview.com/register">{dict.cta}</a>
+          <a href="https://app.revievv.io/register">{dict.cta}</a>
         </Button>
         <Button variant="outline" size="lg" asChild>
           <a href="#flow">{dict.ctaSecondary}</a>

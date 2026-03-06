@@ -22,7 +22,7 @@ export function FinalCta({ dict }: FinalCtaProps) {
           className="mt-8"
           asChild
         >
-          <a href="https://app.designreview.com/register">{dict.cta}</a>
+          <a href="https://app.revievv.io/register">{dict.cta}</a>
         </Button>
       </div>
     </section>

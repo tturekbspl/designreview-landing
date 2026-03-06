@@ -65,7 +65,7 @@ export function Pricing({ dict }: PricingProps) {
                   variant={isPopular ? "default" : "outline"}
                   asChild
                 >
-                  <a href="https://app.designreview.com/register">
+                  <a href="https://app.revievv.io/register">
                     {tier.cta}
                   </a>
                 </Button>

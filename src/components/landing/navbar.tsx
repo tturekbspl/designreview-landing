@@ -43,10 +43,10 @@ export function Navbar({ dict, locale, otherLocale }: NavbarProps) {
             {otherLocale.toUpperCase()}
           </Link>
           <Button variant="ghost" size="sm" asChild>
-            <a href="https://app.designreview.com/login">{dict.login}</a>
+            <a href="https://app.revievv.io/login">{dict.login}</a>
           </Button>
           <Button size="sm" asChild>
-            <a href="https://app.designreview.com/register">{dict.cta}</a>
+            <a href="https://app.revievv.io/register">{dict.cta}</a>
           </Button>
         </div>
 
@@ -84,10 +84,10 @@ export function Navbar({ dict, locale, otherLocale }: NavbarProps) {
             </Link>
             <div className="flex gap-3 pt-2">
               <Button variant="ghost" size="sm" asChild>
-                <a href="https://app.designreview.com/login">{dict.login}</a>
+                <a href="https://app.revievv.io/login">{dict.login}</a>
               </Button>
               <Button size="sm" asChild>
-                <a href="https://app.designreview.com/register">{dict.cta}</a>
+                <a href="https://app.revievv.io/register">{dict.cta}</a>
               </Button>
             </div>
           </nav>
