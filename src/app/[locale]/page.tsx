@@ -1,4 +1,14 @@
 import { getDictionary, type Locale } from "@/lib/i18n";
+import { Navbar } from "@/components/landing/navbar";
+import { Hero } from "@/components/landing/hero";
+import { Formats } from "@/components/landing/formats";
+import { FlowSteps } from "@/components/landing/flow-steps";
+import { Features } from "@/components/landing/features";
+import { Audience } from "@/components/landing/audience";
+import { Security } from "@/components/landing/security";
+import { Pricing } from "@/components/landing/pricing";
+import { FinalCta } from "@/components/landing/final-cta";
+import { Footer } from "@/components/landing/footer";
 
 export default async function LandingPage({
   params,
@@ -7,10 +17,30 @@ export default async function LandingPage({
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale as Locale);
+  const otherLocale = locale === "pl" ? "en" : "pl";
 
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <h1 className="text-4xl font-bold">{(dict.hero as any).title}</h1>
-    </main>
+    <>
+      <Navbar
+        dict={dict.nav as any}
+        locale={locale}
+        otherLocale={otherLocale}
+      />
+      <main>
+        <Hero dict={dict.hero as any} />
+        <Formats dict={dict.formats as any} />
+        <FlowSteps dict={dict.flow as any} />
+        <Features dict={dict.features as any} />
+        <Audience dict={dict.audience as any} />
+        <Security dict={dict.security as any} />
+        <Pricing dict={dict.pricing as any} />
+        <FinalCta dict={dict.finalCta as any} />
+      </main>
+      <Footer
+        dict={dict.footer as any}
+        locale={locale}
+        otherLocale={otherLocale}
+      />
+    </>
   );
 }
