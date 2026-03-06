@@ -9,7 +9,6 @@ import { Menu, X } from "lucide-react";
 interface NavbarProps {
   dict: {
     features: string;
-    pricing: string;
     login: string;
     cta: string;
   };
@@ -30,9 +29,6 @@ export function Navbar({ dict, locale, otherLocale }: NavbarProps) {
         <nav className="hidden items-center gap-6 md:flex">
           <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             {dict.features}
-          </a>
-          <a href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            {dict.pricing}
           </a>
         </nav>
 
@@ -69,13 +65,6 @@ export function Navbar({ dict, locale, otherLocale }: NavbarProps) {
               onClick={() => setMobileOpen(false)}
             >
               {dict.features}
-            </a>
-            <a
-              href="#pricing"
-              className="text-sm text-muted-foreground hover:text-foreground"
-              onClick={() => setMobileOpen(false)}
-            >
-              {dict.pricing}
             </a>
             <Link
               href={`/${otherLocale}`}
