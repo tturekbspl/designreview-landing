@@ -2,39 +2,39 @@
   "nav": {
     "features": "Funkcje",
     "pricing": "Cennik",
-    "login": "Zaloguj sie",
+    "login": "Zaloguj się",
     "cta": "Zacznij za darmo"
   },
   "hero": {
-    "title": "Udostepnij. Zbierz feedback. Gotowe.",
-    "subtitle": "Uniwersalna platforma do zbierania wizualnego feedbacku od klientow — na plikach 3D, PDF i obrazach. Bez kont dla recenzentow, bez skomplikowanych narzedzi.",
+    "title": "Udostępnij. Zbierz feedback. Gotowe.",
+    "subtitle": "Uniwersalna platforma do zbierania wizualnego feedbacku od klientów — na plikach 3D, PDF i obrazach. Bez kont dla recenzentów, bez skomplikowanych narzędzi.",
     "cta": "Zacznij za darmo",
-    "ctaSecondary": "Zobacz jak to dziala"
+    "ctaSecondary": "Zobacz jak to działa"
   },
   "formats": {
     "title": "Jeden tool. Trzy formaty.",
     "step": {
       "title": "Modele 3D (STEP)",
-      "description": "Przegladaj modele CAD bezposrednio w przegladarce. Bez instalacji, bez pluginow."
+      "description": "Przeglądaj modele CAD bezpośrednio w przeglądarce. Bez instalacji, bez pluginów."
     },
     "pdf": {
       "title": "Dokumenty PDF",
-      "description": "Wielostronicowe PDF-y z nawigacja miedzy stronami i pinami w dowolnym miejscu."
+      "description": "Wielostronicowe PDF-y z nawigacją między stronami i pinami w dowolnym miejscu."
     },
     "image": {
       "title": "Obrazy",
-      "description": "Rendery, zdjecia, szkice — do 20 plikow w jednym review z galeria i nawigacja."
+      "description": "Rendery, zdjęcia, szkice — do 20 plików w jednym review z galerią i nawigacją."
     }
   },
   "flow": {
     "title": "Feedback w 3 prostych krokach",
     "step1": {
       "title": "Wgraj plik",
-      "description": "Przeciagnij i upusc dowolny plik. Automatyczne rozpoznanie typu — STEP, PDF czy obraz."
+      "description": "Przeciągnij i upuść dowolny plik. Automatyczne rozpoznanie typu — STEP, PDF czy obraz."
     },
     "step2": {
-      "title": "Udostepnij link",
-      "description": "Skopiuj link jednym kliknieciem. Ustaw haslo, date wygasniecia i poziom dostepu."
+      "title": "Udostępnij link",
+      "description": "Skopiuj link jednym kliknięciem. Ustaw hasło, datę wygaśnięcia i poziom dostępu."
     },
     "step3": {
       "title": "Zbieraj feedback",
@@ -45,97 +45,97 @@
     "title": "Wszystko, czego potrzebujesz",
     "pins": {
       "title": "Piny z komentarzami",
-      "description": "Wskaz dokladne miejsce na modelu, stronie PDF czy obrazie. Kazdy pin ma watek komentarzy."
+      "description": "Wskaż dokładne miejsce na modelu, stronie PDF czy obrazie. Każdy pin ma wątek komentarzy."
     },
     "sharing": {
-      "title": "Udostepnianie linkiem",
-      "description": "Haslo, wygasanie, kontrola dostepu — Viewer lub Commenter. Zaproszenia email."
+      "title": "Udostępnianie linkiem",
+      "description": "Hasło, wygasanie, kontrola dostępu — Viewer lub Commenter. Zaproszenia email."
     },
     "realtime": {
       "title": "Real-time",
-      "description": "Komentarze pojawiaja sie natychmiast dzieki WebSocket. Bez odswiezania strony."
+      "description": "Komentarze pojawiają się natychmiast dzięki WebSocket. Bez odświeżania strony."
     },
     "orgs": {
       "title": "Organizacje",
-      "description": "Zarzadzaj zespolem, projektami i dostepami w jednym miejscu."
+      "description": "Zarządzaj zespołem, projektami i dostępami w jednym miejscu."
     },
     "browser": {
       "title": "Bez instalacji",
-      "description": "Wszystko dziala w przegladarce — rowniez modele 3D. Wystarczy link."
+      "description": "Wszystko działa w przeglądarce — również modele 3D. Wystarczy link."
     },
     "security": {
-      "title": "Bezpieczenstwo",
-      "description": "Szyfrowane hasla, wygasajace linki, izolacja danych miedzy organizacjami."
+      "title": "Bezpieczeństwo",
+      "description": "Szyfrowane hasła, wygasające linki, izolacja danych między organizacjami."
     }
   },
   "audience": {
     "title": "Dla kogo?",
     "teams": {
-      "title": "Firmy i zespoly",
+      "title": "Firmy i zespoły",
       "items": [
-        "Biura projektowe wysylajace projekty do akceptacji",
-        "Zespoly inzynierskie recenzujace modele CAD",
-        "Agencje kreatywne zbierajace feedback na renderach"
+        "Biura projektowe wysyłające projekty do akceptacji",
+        "Zespoły inżynierskie recenzujące modele CAD",
+        "Agencje kreatywne zbierające feedback na renderach"
       ]
     },
     "freelancers": {
-      "title": "Freelancerzy i male firmy",
+      "title": "Freelancerzy i małe firmy",
       "items": [
-        "Projektanci potrzebujacy szybkiego OK od klienta",
-        "Fotografowie wysylajacy zdjecia do wyboru",
-        "Architekci prezentujacy wizualizacje"
+        "Projektanci potrzebujący szybkiego OK od klienta",
+        "Fotografowie wysyłający zdjęcia do wyboru",
+        "Architekci prezentujący wizualizacje"
       ]
     }
   },
   "security": {
-    "title": "Twoje dane sa bezpieczne",
-    "subtitle": "Bezpieczenstwo jest wbudowane w kazda warstwe aplikacji — od przechowywania plikow po kontrole dostepu.",
+    "title": "Twoje dane są bezpieczne",
+    "subtitle": "Bezpieczeństwo jest wbudowane w każdą warstwę aplikacji — od przechowywania plików po kontrolę dostępu.",
     "encryption": {
-      "title": "Szyfrowane polaczenia",
-      "description": "Cala komunikacja odbywa sie przez HTTPS/TLS. Pliki przechowywane w szyfrowanej chmurze."
+      "title": "Szyfrowane połączenia",
+      "description": "Cała komunikacja odbywa się przez HTTPS/TLS. Pliki przechowywane w szyfrowanej chmurze."
     },
     "passwords": {
-      "title": "Hashowane hasla",
-      "description": "Hasla uzytkownikow i linkow udostepniania sa hashowane algorytmem bcrypt — nigdy nie przechowujemy ich w postaci jawnej."
+      "title": "Hashowane hasła",
+      "description": "Hasła użytkowników i linków udostępniania są hashowane algorytmem bcrypt — nigdy nie przechowujemy ich w postaci jawnej."
     },
     "expiration": {
-      "title": "Wygasajace linki",
-      "description": "Ustaw date waznosci linku udostepniania — po jej uplynieciu dostep zostaje automatycznie zablokowany."
+      "title": "Wygasające linki",
+      "description": "Ustaw datę ważności linku udostępniania — po jej upłynięciu dostęp zostaje automatycznie zablokowany."
     },
     "isolation": {
       "title": "Izolacja danych",
-      "description": "Dane kazdej organizacji sa calkowicie odizolowane. Nie ma mozliwosci dostepu do cudzych review."
+      "description": "Dane każdej organizacji są całkowicie odizolowane. Nie ma możliwości dostępu do cudzych review."
     },
     "access": {
-      "title": "Kontrola dostepu",
-      "description": "Precyzyjne poziomy dostepu — Viewer (tylko podglad) lub Commenter (podglad + komentarze)."
+      "title": "Kontrola dostępu",
+      "description": "Precyzyjne poziomy dostępu — Viewer (tylko podgląd) lub Commenter (podgląd + komentarze)."
     },
     "auth": {
-      "title": "Autoryzacja na kazdym kroku",
-      "description": "Kazde zadanie API weryfikuje sesje, czlonkostwo w organizacji i uprawnienia do konkretnego review."
+      "title": "Autoryzacja na każdym kroku",
+      "description": "Każde żądanie API weryfikuje sesję, członkostwo w organizacji i uprawnienia do konkretnego review."
     }
   },
   "pricing": {
     "title": "Prosty cennik",
     "free": {
       "name": "Free",
-      "price": "0 zl",
+      "price": "0 zł",
       "period": "",
       "features": [
-        "1 uzytkownik",
+        "1 użytkownik",
         "2 aktywne review",
         "100 MB przestrzeni",
-        "Udostepnianie linkiem"
+        "Udostępnianie linkiem"
       ],
       "cta": "Zacznij za darmo"
     },
     "pro": {
       "name": "Pro",
-      "price": "X zl",
+      "price": "X zł",
       "period": "/mies.",
       "popular": "Najpopularniejszy",
       "features": [
-        "Do 10 uzytkownikow",
+        "Do 10 użytkowników",
         "Bez limitu review",
         "10 GB przestrzeni",
         "Zaproszenia email",
@@ -148,22 +148,22 @@
       "price": "Kontakt",
       "period": "",
       "features": [
-        "Bez limitu uzytkownikow",
+        "Bez limitu użytkowników",
         "Bez limitu review",
-        "Dedykowana przestrzen",
+        "Dedykowana przestrzeń",
         "SSO / SAML",
         "Dedykowane wsparcie"
       ],
-      "cta": "Skontaktuj sie"
+      "cta": "Skontaktuj się"
     }
   },
   "finalCta": {
-    "title": "Zacznij zbierac feedback w 30 sekund",
-    "subtitle": "Bez karty kredytowej. Bez zobowiazan.",
-    "cta": "Stworz darmowe konto"
+    "title": "Zacznij zbierać feedback w 30 sekund",
+    "subtitle": "Bez karty kredytowej. Bez zobowiązań.",
+    "cta": "Stwórz darmowe konto"
   },
   "footer": {
-    "privacy": "Polityka prywatnosci",
+    "privacy": "Polityka prywatności",
     "terms": "Regulamin",
     "contact": "Kontakt"
   }
