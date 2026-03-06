@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "login": "Log in",
+    "cta": "Start for free"
+  },
+  "hero": {
+    "title": "Share. Get feedback. Done.",
+    "subtitle": "A universal platform for collecting visual feedback from clients — on 3D files, PDFs, and images. No reviewer accounts needed, no complicated tools.",
+    "cta": "Start for free",
+    "ctaSecondary": "See how it works"
+  },
+  "formats": {
+    "title": "One tool. Three formats.",
+    "step": {
+      "title": "3D Models (STEP)",
+      "description": "Browse CAD models directly in the browser. No installation, no plugins."
+    },
+    "pdf": {
+      "title": "PDF Documents",
+      "description": "Multi-page PDFs with page navigation and annotation pins anywhere."
+    },
+    "image": {
+      "title": "Images",
+      "description": "Renders, photos, sketches — up to 20 files in a single review with gallery navigation."
+    }
+  },
+  "flow": {
+    "title": "Feedback in 3 simple steps",
+    "step1": {
+      "title": "Upload a file",
+      "description": "Drag and drop any file. Automatic type detection — STEP, PDF, or image."
+    },
+    "step2": {
+      "title": "Share a link",
+      "description": "Copy a link with one click. Set a password, expiration date, and access level."
+    },
+    "step3": {
+      "title": "Collect feedback",
+      "description": "Reviewer clicks on a specific spot, places a pin, and writes a comment. Everything in one place."
+    }
+  },
+  "features": {
+    "title": "Everything you need",
+    "pins": {
+      "title": "Pins with comments",
+      "description": "Point to the exact spot on a model, PDF page, or image. Each pin has a comment thread."
+    },
+    "sharing": {
+      "title": "Link sharing",
+      "description": "Password, expiration, access control — Viewer or Commenter. Email invitations."
+    },
+    "realtime": {
+      "title": "Real-time",
+      "description": "Comments appear instantly via WebSocket. No page refresh needed."
+    },
+    "orgs": {
+      "title": "Organizations",
+      "description": "Manage your team, projects, and access in one place."
+    },
+    "browser": {
+      "title": "No installation",
+      "description": "Everything works in the browser — including 3D models. Just a link."
+    },
+    "security": {
+      "title": "Security",
+      "description": "Encrypted passwords, expiring links, data isolation between organizations."
+    }
+  },
+  "audience": {
+    "title": "Who is it for?",
+    "teams": {
+      "title": "Companies and teams",
+      "items": [
+        "Design studios sending projects for client approval",
+        "Engineering teams reviewing CAD models",
+        "Creative agencies collecting feedback on renders"
+      ]
+    },
+    "freelancers": {
+      "title": "Freelancers and small businesses",
+      "items": [
+        "Designers needing a quick OK from a client",
+        "Photographers sending photos for selection",
+        "Architects presenting visualizations"
+      ]
+    }
+  },
+  "security": {
+    "title": "Your data is safe",
+    "subtitle": "Security is built into every layer of the application — from file storage to access control.",
+    "encryption": {
+      "title": "Encrypted connections",
+      "description": "All communication happens over HTTPS/TLS. Files are stored in encrypted cloud storage."
+    },
+    "passwords": {
+      "title": "Hashed passwords",
+      "description": "User and share link passwords are hashed with bcrypt — never stored in plain text."
+    },
+    "expiration": {
+      "title": "Expiring links",
+      "description": "Set an expiration date for share links — access is automatically blocked after it passes."
+    },
+    "isolation": {
+      "title": "Data isolation",
+      "description": "Each organization's data is completely isolated. No access to other organizations' reviews."
+    },
+    "access": {
+      "title": "Access control",
+      "description": "Precise access levels — Viewer (view only) or Commenter (view + comments)."
+    },
+    "auth": {
+      "title": "Authorization at every step",
+      "description": "Every API request verifies session, organization membership, and permissions for the specific review."
+    }
+  },
+  "pricing": {
+    "title": "Simple pricing",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "period": "",
+      "features": [
+        "1 user",
+        "2 active reviews",
+        "100 MB storage",
+        "Link sharing"
+      ],
+      "cta": "Start for free"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$X",
+      "period": "/mo",
+      "popular": "Most popular",
+      "features": [
+        "Up to 10 users",
+        "Unlimited reviews",
+        "10 GB storage",
+        "Email invitations",
+        "Priority support"
+      ],
+      "cta": "Choose Pro"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Contact",
+      "period": "",
+      "features": [
+        "Unlimited users",
+        "Unlimited reviews",
+        "Dedicated storage",
+        "SSO / SAML",
+        "Dedicated support"
+      ],
+      "cta": "Contact us"
+    }
+  },
+  "finalCta": {
+    "title": "Start collecting feedback in 30 seconds",
+    "subtitle": "No credit card. No commitment.",
+    "cta": "Create a free account"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact"
+  }
+}

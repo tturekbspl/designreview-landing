@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "features": "Funkcje",
+    "pricing": "Cennik",
+    "login": "Zaloguj sie",
+    "cta": "Zacznij za darmo"
+  },
+  "hero": {
+    "title": "Udostepnij. Zbierz feedback. Gotowe.",
+    "subtitle": "Uniwersalna platforma do zbierania wizualnego feedbacku od klientow — na plikach 3D, PDF i obrazach. Bez kont dla recenzentow, bez skomplikowanych narzedzi.",
+    "cta": "Zacznij za darmo",
+    "ctaSecondary": "Zobacz jak to dziala"
+  },
+  "formats": {
+    "title": "Jeden tool. Trzy formaty.",
+    "step": {
+      "title": "Modele 3D (STEP)",
+      "description": "Przegladaj modele CAD bezposrednio w przegladarce. Bez instalacji, bez pluginow."
+    },
+    "pdf": {
+      "title": "Dokumenty PDF",
+      "description": "Wielostronicowe PDF-y z nawigacja miedzy stronami i pinami w dowolnym miejscu."
+    },
+    "image": {
+      "title": "Obrazy",
+      "description": "Rendery, zdjecia, szkice — do 20 plikow w jednym review z galeria i nawigacja."
+    }
+  },
+  "flow": {
+    "title": "Feedback w 3 prostych krokach",
+    "step1": {
+      "title": "Wgraj plik",
+      "description": "Przeciagnij i upusc dowolny plik. Automatyczne rozpoznanie typu — STEP, PDF czy obraz."
+    },
+    "step2": {
+      "title": "Udostepnij link",
+      "description": "Skopiuj link jednym kliknieciem. Ustaw haslo, date wygasniecia i poziom dostepu."
+    },
+    "step3": {
+      "title": "Zbieraj feedback",
+      "description": "Recenzent klika w konkretne miejsce, stawia pin i pisze komentarz. Wszystko w jednym miejscu."
+    }
+  },
+  "features": {
+    "title": "Wszystko, czego potrzebujesz",
+    "pins": {
+      "title": "Piny z komentarzami",
+      "description": "Wskaz dokladne miejsce na modelu, stronie PDF czy obrazie. Kazdy pin ma watek komentarzy."
+    },
+    "sharing": {
+      "title": "Udostepnianie linkiem",
+      "description": "Haslo, wygasanie, kontrola dostepu — Viewer lub Commenter. Zaproszenia email."
+    },
+    "realtime": {
+      "title": "Real-time",
+      "description": "Komentarze pojawiaja sie natychmiast dzieki WebSocket. Bez odswiezania strony."
+    },
+    "orgs": {
+      "title": "Organizacje",
+      "description": "Zarzadzaj zespolem, projektami i dostepami w jednym miejscu."
+    },
+    "browser": {
+      "title": "Bez instalacji",
+      "description": "Wszystko dziala w przegladarce — rowniez modele 3D. Wystarczy link."
+    },
+    "security": {
+      "title": "Bezpieczenstwo",
+      "description": "Szyfrowane hasla, wygasajace linki, izolacja danych miedzy organizacjami."
+    }
+  },
+  "audience": {
+    "title": "Dla kogo?",
+    "teams": {
+      "title": "Firmy i zespoly",
+      "items": [
+        "Biura projektowe wysylajace projekty do akceptacji",
+        "Zespoly inzynierskie recenzujace modele CAD",
+        "Agencje kreatywne zbierajace feedback na renderach"
+      ]
+    },
+    "freelancers": {
+      "title": "Freelancerzy i male firmy",
+      "items": [
+        "Projektanci potrzebujacy szybkiego OK od klienta",
+        "Fotografowie wysylajacy zdjecia do wyboru",
+        "Architekci prezentujacy wizualizacje"
+      ]
+    }
+  },
+  "security": {
+    "title": "Twoje dane sa bezpieczne",
+    "subtitle": "Bezpieczenstwo jest wbudowane w kazda warstwe aplikacji — od przechowywania plikow po kontrole dostepu.",
+    "encryption": {
+      "title": "Szyfrowane polaczenia",
+      "description": "Cala komunikacja odbywa sie przez HTTPS/TLS. Pliki przechowywane w szyfrowanej chmurze."
+    },
+    "passwords": {
+      "title": "Hashowane hasla",
+      "description": "Hasla uzytkownikow i linkow udostepniania sa hashowane algorytmem bcrypt — nigdy nie przechowujemy ich w postaci jawnej."
+    },
+    "expiration": {
+      "title": "Wygasajace linki",
+      "description": "Ustaw date waznosci linku udostepniania — po jej uplynieciu dostep zostaje automatycznie zablokowany."
+    },
+    "isolation": {
+      "title": "Izolacja danych",
+      "description": "Dane kazdej organizacji sa calkowicie odizolowane. Nie ma mozliwosci dostepu do cudzych review."
+    },
+    "access": {
+      "title": "Kontrola dostepu",
+      "description": "Precyzyjne poziomy dostepu — Viewer (tylko podglad) lub Commenter (podglad + komentarze)."
+    },
+    "auth": {
+      "title": "Autoryzacja na kazdym kroku",
+      "description": "Kazde zadanie API weryfikuje sesje, czlonkostwo w organizacji i uprawnienia do konkretnego review."
+    }
+  },
+  "pricing": {
+    "title": "Prosty cennik",
+    "free": {
+      "name": "Free",
+      "price": "0 zl",
+      "period": "",
+      "features": [
+        "1 uzytkownik",
+        "2 aktywne review",
+        "100 MB przestrzeni",
+        "Udostepnianie linkiem"
+      ],
+      "cta": "Zacznij za darmo"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "X zl",
+      "period": "/mies.",
+      "popular": "Najpopularniejszy",
+      "features": [
+        "Do 10 uzytkownikow",
+        "Bez limitu review",
+        "10 GB przestrzeni",
+        "Zaproszenia email",
+        "Priorytetowe wsparcie"
+      ],
+      "cta": "Wybierz Pro"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Kontakt",
+      "period": "",
+      "features": [
+        "Bez limitu uzytkownikow",
+        "Bez limitu review",
+        "Dedykowana przestrzen",
+        "SSO / SAML",
+        "Dedykowane wsparcie"
+      ],
+      "cta": "Skontaktuj sie"
+    }
+  },
+  "finalCta": {
+    "title": "Zacznij zbierac feedback w 30 sekund",
+    "subtitle": "Bez karty kredytowej. Bez zobowiazan.",
+    "cta": "Stworz darmowe konto"
+  },
+  "footer": {
+    "privacy": "Polityka prywatnosci",
+    "terms": "Regulamin",
+    "contact": "Kontakt"
+  }
+}
