@@ -6,6 +6,7 @@ import { FlowSteps } from "@/components/landing/flow-steps";
 import { Features } from "@/components/landing/features";
 import { Audience } from "@/components/landing/audience";
 import { Security } from "@/components/landing/security";
+import { Pricing } from "@/components/landing/pricing";
 import { FinalCta } from "@/components/landing/final-cta";
 import { Footer } from "@/components/landing/footer";
 
@@ -32,6 +33,7 @@ export default async function LandingPage({
         <Features dict={dict.features as any} />
         <Audience dict={dict.audience as any} />
         <Security dict={dict.security as any} />
+        <Pricing dict={dict.pricing as any} />
         <FinalCta dict={dict.finalCta as any} />
       </main>
       <Footer

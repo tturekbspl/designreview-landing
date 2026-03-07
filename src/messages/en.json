@@ -118,44 +118,53 @@
   },
   "pricing": {
     "title": "Simple pricing",
-    "free": {
-      "name": "Free",
-      "price": "$0",
-      "period": "",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "perMonth": "/mo",
+    "starter": {
+      "name": "Starter",
+      "monthlyPrice": "€0",
+      "yearlyPrice": "€0",
       "features": [
-        "1 user",
-        "2 active reviews",
-        "100 MB storage",
-        "Link sharing"
+        "3 active reviews",
+        "2 3D CAD conversions/mo",
+        "Unlimited PDF & image reviews",
+        "500 MB storage",
+        "2 organization members",
+        "Unlimited reviewers"
       ],
       "cta": "Start for free"
     },
     "pro": {
       "name": "Pro",
-      "price": "$X",
-      "period": "/mo",
+      "monthlyPrice": "€19",
+      "yearlyPrice": "€15",
+      "yearlyDiscount": "Save 21%",
       "popular": "Most popular",
       "features": [
-        "Up to 10 users",
-        "Unlimited reviews",
-        "10 GB storage",
-        "Email invitations",
-        "Priority support"
+        "15 active reviews",
+        "10 3D CAD conversions/mo",
+        "Unlimited PDF & image reviews",
+        "5 GB storage",
+        "5 organization members",
+        "Unlimited reviewers"
       ],
       "cta": "Choose Pro"
     },
-    "enterprise": {
-      "name": "Enterprise",
-      "price": "Contact",
-      "period": "",
+    "team": {
+      "name": "Team",
+      "monthlyPrice": "€49",
+      "yearlyPrice": "€39",
+      "yearlyDiscount": "Save 20%",
       "features": [
-        "Unlimited users",
-        "Unlimited reviews",
-        "Dedicated storage",
-        "SSO / SAML",
-        "Dedicated support"
+        "50 active reviews",
+        "50 3D CAD conversions/mo",
+        "Unlimited PDF & image reviews",
+        "50 GB storage",
+        "50 organization members",
+        "Unlimited reviewers"
       ],
-      "cta": "Contact us"
+      "cta": "Choose Team"
     }
   },
   "finalCta": {

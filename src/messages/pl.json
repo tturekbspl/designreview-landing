@@ -118,44 +118,53 @@
   },
   "pricing": {
     "title": "Prosty cennik",
-    "free": {
-      "name": "Free",
-      "price": "0 zł",
-      "period": "",
+    "monthly": "Miesięcznie",
+    "yearly": "Rocznie",
+    "perMonth": "/mies.",
+    "starter": {
+      "name": "Starter",
+      "monthlyPrice": "€0",
+      "yearlyPrice": "€0",
       "features": [
-        "1 użytkownik",
-        "2 aktywne review",
-        "100 MB przestrzeni",
-        "Udostępnianie linkiem"
+        "3 aktywne review",
+        "2 konwersje 3D CAD/mies.",
+        "Review PDF i obrazów bez limitu",
+        "500 MB przestrzeni",
+        "2 członków organizacji",
+        "Recenzenci bez limitu"
       ],
       "cta": "Zacznij za darmo"
     },
     "pro": {
       "name": "Pro",
-      "price": "X zł",
-      "period": "/mies.",
+      "monthlyPrice": "€19",
+      "yearlyPrice": "€15",
+      "yearlyDiscount": "Oszczędź 21%",
       "popular": "Najpopularniejszy",
       "features": [
-        "Do 10 użytkowników",
-        "Bez limitu review",
-        "10 GB przestrzeni",
-        "Zaproszenia email",
-        "Priorytetowe wsparcie"
+        "15 aktywnych review",
+        "10 konwersji 3D CAD/mies.",
+        "Review PDF i obrazów bez limitu",
+        "5 GB przestrzeni",
+        "5 członków organizacji",
+        "Recenzenci bez limitu"
       ],
       "cta": "Wybierz Pro"
     },
-    "enterprise": {
-      "name": "Enterprise",
-      "price": "Kontakt",
-      "period": "",
+    "team": {
+      "name": "Team",
+      "monthlyPrice": "€49",
+      "yearlyPrice": "€39",
+      "yearlyDiscount": "Oszczędź 20%",
       "features": [
-        "Bez limitu użytkowników",
-        "Bez limitu review",
-        "Dedykowana przestrzeń",
-        "SSO / SAML",
-        "Dedykowane wsparcie"
+        "50 aktywnych review",
+        "50 konwersji 3D CAD/mies.",
+        "Review PDF i obrazów bez limitu",
+        "50 GB przestrzeni",
+        "50 członków organizacji",
+        "Recenzenci bez limitu"
       ],
-      "cta": "Skontaktuj się"
+      "cta": "Wybierz Team"
     }
   },
   "finalCta": {
