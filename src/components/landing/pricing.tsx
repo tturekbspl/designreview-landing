@@ -20,6 +20,7 @@ interface PricingTier {
   popular?: string;
   features: string[];
   cta: string;
+  comingSoon?: string;
 }
 
 interface PricingProps {
@@ -123,13 +124,19 @@ export function Pricing({ dict }: PricingProps) {
                 </ul>
               </CardContent>
               <CardFooter>
-                <Button
-                  className="w-full"
-                  variant={isPopular ? "default" : "outline"}
-                  asChild
-                >
-                  <a href="https://app.revievv.io/register">{tier.cta}</a>
-                </Button>
+                {tier.comingSoon ? (
+                  <Button className="w-full" variant="outline" disabled>
+                    {tier.comingSoon}
+                  </Button>
+                ) : (
+                  <Button
+                    className="w-full"
+                    variant={isPopular ? "default" : "outline"}
+                    asChild
+                  >
+                    <a href="https://app.revievv.io/register">{tier.cta}</a>
+                  </Button>
+                )}
               </CardFooter>
             </Card>
           );

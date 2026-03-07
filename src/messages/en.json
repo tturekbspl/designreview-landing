@@ -150,7 +150,8 @@
         "5 organization members",
         "Unlimited reviewers"
       ],
-      "cta": "Choose Pro"
+      "cta": "Choose Pro",
+      "comingSoon": "Coming soon"
     },
     "team": {
       "name": "Team",
@@ -165,7 +166,8 @@
         "15 organization members",
         "Unlimited reviewers"
       ],
-      "cta": "Choose Team"
+      "cta": "Choose Team",
+      "comingSoon": "Coming soon"
     }
   },
   "finalCta": {

@@ -150,7 +150,8 @@
         "5 członków organizacji",
         "Recenzenci bez limitu"
       ],
-      "cta": "Wybierz Pro"
+      "cta": "Wybierz Pro",
+      "comingSoon": "Wkrótce"
     },
     "team": {
       "name": "Team",
@@ -165,7 +166,8 @@
         "15 członków organizacji",
         "Recenzenci bez limitu"
       ],
-      "cta": "Wybierz Team"
+      "cta": "Wybierz Team",
+      "comingSoon": "Wkrótce"
     }
   },
   "finalCta": {
