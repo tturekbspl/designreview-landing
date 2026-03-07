@@ -30,7 +30,7 @@
     "title": "Feedback w 3 prostych krokach",
     "step1": {
       "title": "Wgraj plik",
-      "description": "Przeciągnij i upuść dowolny plik. Automatyczne rozpoznanie typu — STEP, PDF czy obraz."
+      "description": "Przeciągnij i upuść plik do wybranego projektu. Automatyczne rozpoznanie typu — STEP, PDF czy obraz."
     },
     "step2": {
       "title": "Udostępnij link",
@@ -56,8 +56,8 @@
       "description": "Komentarze pojawiają się natychmiast dzięki WebSocket. Bez odświeżania strony."
     },
     "orgs": {
-      "title": "Organizacje",
-      "description": "Zarządzaj zespołem, projektami i dostępami w jednym miejscu."
+      "title": "Organizacje i projekty",
+      "description": "Grupuj review w projekty, zarządzaj zespołem i kontroluj dostępy. Każdy członek widzi tylko to, co powinien."
     },
     "browser": {
       "title": "Bez instalacji",
@@ -75,7 +75,8 @@
       "items": [
         "Biura projektowe wysyłające projekty do akceptacji",
         "Zespoły inżynierskie recenzujące modele CAD",
-        "Agencje kreatywne zbierające feedback na renderach"
+        "Agencje kreatywne zbierające feedback na renderach",
+        "Zespoły organizujące review w projektach per klient"
       ]
     },
     "freelancers": {

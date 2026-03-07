@@ -30,7 +30,7 @@
     "title": "Feedback in 3 simple steps",
     "step1": {
       "title": "Upload a file",
-      "description": "Drag and drop any file. Automatic type detection — STEP, PDF, or image."
+      "description": "Drag and drop a file into your project. Automatic type detection — STEP, PDF, or image."
     },
     "step2": {
       "title": "Share a link",
@@ -56,8 +56,8 @@
       "description": "Comments appear instantly via WebSocket. No page refresh needed."
     },
     "orgs": {
-      "title": "Organizations",
-      "description": "Manage your team, projects, and access in one place."
+      "title": "Organizations & projects",
+      "description": "Group reviews into projects, manage your team, and control access. Each member sees only what they should."
     },
     "browser": {
       "title": "No installation",
@@ -75,7 +75,8 @@
       "items": [
         "Design studios sending projects for client approval",
         "Engineering teams reviewing CAD models",
-        "Creative agencies collecting feedback on renders"
+        "Creative agencies collecting feedback on renders",
+        "Teams organizing reviews into per-client projects"
       ]
     },
     "freelancers": {
