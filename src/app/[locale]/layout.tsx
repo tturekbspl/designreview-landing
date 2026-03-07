@@ -49,6 +49,7 @@ export default async function LocaleLayout({
           src="https://datafa.st/js/script.js"
           data-website-id="dfid_8YBKCViKXp5rLTXcEGCJD"
           data-domain="revievv.io"
+          data-cookieconsent="statistics"
           strategy="afterInteractive"
         />
       </body>
