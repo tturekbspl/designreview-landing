@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import { isValidLocale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import "../globals.css";
@@ -36,6 +37,12 @@ export default async function LocaleLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Script
+          src="https://datafa.st/js/script.js"
+          data-website-id="dfid_8YBKCViKXp5rLTXcEGCJD"
+          data-domain="revievv.io"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
