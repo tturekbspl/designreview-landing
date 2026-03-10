@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -5,6 +7,7 @@ interface FooterProps {
   dict: {
     privacy: string;
     terms: string;
+    cookies: string;
     contact: string;
   };
   locale: string;
@@ -25,7 +28,18 @@ export function Footer({ dict, locale, otherLocale }: FooterProps) {
           <Link href="/terms" className="hover:text-foreground transition-colors">
             {dict.terms}
           </Link>
-          <a href="#" className="hover:text-foreground transition-colors">
+          <button
+            type="button"
+            className="hover:text-foreground transition-colors"
+            onClick={() => {
+              if (typeof window !== "undefined" && (window as any).Cookiebot) {
+                (window as any).Cookiebot.show();
+              }
+            }}
+          >
+            {dict.cookies}
+          </button>
+          <a href="mailto:contact@revievv.io" className="hover:text-foreground transition-colors">
             {dict.contact}
           </a>
           <Link

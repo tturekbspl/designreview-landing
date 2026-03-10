@@ -6,10 +6,15 @@
     "cta": "Start for free"
   },
   "hero": {
-    "title": "Share. Get feedback. Done.",
-    "subtitle": "A universal platform for collecting visual feedback from clients — on 3D files, PDFs, and images. No reviewer accounts needed, no complicated tools.",
-    "cta": "Start for free",
-    "ctaSecondary": "See how it works"
+    "eyebrow": "Visual feedback platform for 3D, PDF and images",
+    "title": "Design feedback in context, not in emails",
+    "subtitle": "Share a STEP file, PDF or image via link. Your client pins a comment on the exact spot. No CAD license, no reviewer accounts needed.",
+    "cta": "Create your first review — free",
+    "ctaSecondary": "See how it works",
+    "ctaMicro": "No credit card required · Sign up in 5 seconds",
+    "trustGdpr": "GDPR compliant",
+    "trustEncryption": "TLS encryption",
+    "trustStripe": "Stripe payments"
   },
   "formats": {
     "title": "One tool. Three formats.",
@@ -67,6 +72,10 @@
       "title": "Security",
       "description": "Encrypted passwords, expiring links, data isolation between organizations."
     }
+  },
+  "midCta": {
+    "cta": "Create your first review — free",
+    "ctaMicro": "No credit card required · Sign up in 5 seconds"
   },
   "audience": {
     "title": "Who is it for?",
@@ -141,6 +150,7 @@
       "monthlyPrice": "€19",
       "yearlyPrice": "€15",
       "yearlyDiscount": "Save 21%",
+      "popular": "Most popular",
       "features": [
         "15 active reviews",
         "10 3D CAD conversions/mo",
@@ -149,8 +159,7 @@
         "5 organization members",
         "Unlimited reviewers"
       ],
-      "cta": "Choose Pro",
-      "comingSoon": "Coming soon"
+      "cta": "Choose Pro"
     },
     "team": {
       "name": "Team",
@@ -165,18 +174,19 @@
         "15 organization members",
         "Unlimited reviewers"
       ],
-      "cta": "Choose Team",
-      "comingSoon": "Coming soon"
+      "cta": "Choose Team"
     }
   },
   "finalCta": {
     "title": "Start collecting feedback in 30 seconds",
     "subtitle": "No credit card. No commitment.",
-    "cta": "Create a free account"
+    "cta": "Create your first review — free",
+    "ctaMicro": "No credit card · Sign up with Google in 5 seconds"
   },
   "footer": {
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
+    "cookies": "Cookie settings",
     "contact": "Contact"
   }
 }

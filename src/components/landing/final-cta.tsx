@@ -5,6 +5,7 @@ interface FinalCtaProps {
     title: string;
     subtitle: string;
     cta: string;
+    ctaMicro: string;
   };
 }
 
@@ -16,14 +17,12 @@ export function FinalCta({ dict }: FinalCtaProps) {
           {dict.title}
         </h2>
         <p className="mt-4 text-lg opacity-90">{dict.subtitle}</p>
-        <Button
-          size="lg"
-          variant="secondary"
-          className="mt-8"
-          asChild
-        >
-          <a href="https://app.revievv.io/register">{dict.cta}</a>
-        </Button>
+        <div className="mt-8 flex flex-col items-center gap-2">
+          <Button size="lg" variant="secondary" asChild>
+            <a href="https://app.revievv.io/register">{dict.cta}</a>
+          </Button>
+          <p className="text-sm opacity-70">{dict.ctaMicro}</p>
+        </div>
       </div>
     </section>
   );

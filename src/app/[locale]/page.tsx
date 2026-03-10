@@ -7,6 +7,7 @@ import { Features } from "@/components/landing/features";
 import { Audience } from "@/components/landing/audience";
 import { Security } from "@/components/landing/security";
 import { Pricing } from "@/components/landing/pricing";
+import { MidCta } from "@/components/landing/mid-cta";
 import { FinalCta } from "@/components/landing/final-cta";
 import { Footer } from "@/components/landing/footer";
 
@@ -31,6 +32,7 @@ export default async function LandingPage({
         <Formats dict={dict.formats as any} />
         <FlowSteps dict={dict.flow as any} />
         <Features dict={dict.features as any} />
+        <MidCta dict={dict.midCta as any} />
         <Audience dict={dict.audience as any} />
         <Security dict={dict.security as any} />
         <Pricing dict={dict.pricing as any} />
