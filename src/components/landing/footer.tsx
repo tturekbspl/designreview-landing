@@ -19,12 +19,12 @@ export function Footer({ dict, locale, otherLocale }: FooterProps) {
           <Image src="/logo.svg" alt="revievv" width={100} height={23} />
         </Link>
         <nav className="flex items-center gap-6 text-sm text-muted-foreground">
-          <a href="/polityka-prywatnosci.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+          <Link href={`/${locale}/polityka-prywatnosci`} className="hover:text-foreground transition-colors">
             {dict.privacy}
-          </a>
-          <a href="/regulamin.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+          </Link>
+          <Link href={`/${locale}/regulamin`} className="hover:text-foreground transition-colors">
             {dict.terms}
-          </a>
+          </Link>
           <a href="#" className="hover:text-foreground transition-colors">
             {dict.contact}
           </a>
