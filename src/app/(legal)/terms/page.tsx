@@ -7,18 +7,12 @@ export const metadata: Metadata = {
   description: "Regulamin usługi revievv.io",
 };
 
-export default async function TermsPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-
+export default function TermsPage() {
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b">
         <div className="mx-auto flex h-16 max-w-4xl items-center px-4 sm:px-6">
-          <Link href={`/${locale}`}>
+          <Link href="/">
             <Image src="/logo.svg" alt="revievv" width={100} height={23} />
           </Link>
         </div>
