@@ -19,10 +19,10 @@ export function Footer({ dict, locale, otherLocale }: FooterProps) {
           <Image src="/logo.svg" alt="revievv" width={100} height={23} />
         </Link>
         <nav className="flex items-center gap-6 text-sm text-muted-foreground">
-          <a href="#" className="hover:text-foreground transition-colors">
+          <a href="/polityka-prywatnosci.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
             {dict.privacy}
           </a>
-          <a href="#" className="hover:text-foreground transition-colors">
+          <a href="/regulamin.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
             {dict.terms}
           </a>
           <a href="#" className="hover:text-foreground transition-colors">
@@ -35,6 +35,11 @@ export function Footer({ dict, locale, otherLocale }: FooterProps) {
             {otherLocale.toUpperCase()}
           </Link>
         </nav>
+      </div>
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 mt-8">
+        <p className="text-center text-xs text-muted-foreground/60">
+          revievv.io by Tomstack Tomasz Turek, Szkolna 2K, 42-512 Preczów, NIP: 6010041104
+        </p>
       </div>
     </footer>
   );
