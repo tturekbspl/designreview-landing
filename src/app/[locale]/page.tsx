@@ -8,6 +8,7 @@ import { Audience } from "@/components/landing/audience";
 import { Security } from "@/components/landing/security";
 import { Pricing } from "@/components/landing/pricing";
 import { MidCta } from "@/components/landing/mid-cta";
+import { StickyCtaBar } from "@/components/landing/sticky-cta-bar";
 import { FinalCta } from "@/components/landing/final-cta";
 import { Footer } from "@/components/landing/footer";
 
@@ -26,6 +27,10 @@ export default async function LandingPage({
         dict={dict.nav as any}
         locale={locale}
         otherLocale={otherLocale}
+      />
+      <StickyCtaBar
+        cta={(dict.hero as any).cta}
+        ctaMicro={(dict.hero as any).ctaMicro}
       />
       <main>
         <Hero dict={dict.hero as any} />
