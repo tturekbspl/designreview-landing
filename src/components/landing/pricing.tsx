@@ -76,9 +76,14 @@ export function Pricing({ dict }: PricingProps) {
 
       {/* Cards */}
       <div className="mt-12 grid gap-8 sm:grid-cols-3">
-        {tiers.map((tier) => {
+        {tiers.map((tier, index) => {
           const isPopular = !!tier.popular;
           const price = yearly ? tier.yearlyPrice : tier.monthlyPrice;
+          const ctaHref = [
+            "https://app.revievv.io/register",
+            "https://app.revievv.io/upgrade?plan=pro",
+            "https://app.revievv.io/upgrade?plan=team",
+          ][index];
 
           return (
             <Card
@@ -129,7 +134,7 @@ export function Pricing({ dict }: PricingProps) {
                   variant={isPopular ? "default" : "outline"}
                   asChild
                 >
-                  <a href="https://app.revievv.io/register">{tier.cta}</a>
+                  <a href={ctaHref}>{tier.cta}</a>
                 </Button>
               </CardFooter>
             </Card>
