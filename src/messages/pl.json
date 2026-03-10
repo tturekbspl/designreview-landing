@@ -6,10 +6,15 @@
     "cta": "Zacznij za darmo"
   },
   "hero": {
-    "title": "Udostępnij. Zbierz feedback. Gotowe.",
-    "subtitle": "Uniwersalna platforma do zbierania wizualnego feedbacku od klientów — na plikach 3D, PDF i obrazach. Bez kont dla recenzentów, bez skomplikowanych narzędzi.",
-    "cta": "Zacznij za darmo",
-    "ctaSecondary": "Zobacz jak to działa"
+    "eyebrow": "Platforma wizualnego feedbacku dla 3D, PDF i obrazów",
+    "title": "Feedback na projektach — w kontekście, nie w mailach",
+    "subtitle": "Udostępnij plik STEP, PDF lub obraz linkiem. Klient przypina komentarz w konkretnym miejscu. Bez licencji CAD, bez kont dla recenzentów.",
+    "cta": "Stwórz pierwszą recenzję — za darmo",
+    "ctaSecondary": "Zobacz jak to działa",
+    "ctaMicro": "Bez karty kredytowej · Rejestracja w 5 sekund",
+    "trustGdpr": "Zgodność z GDPR",
+    "trustEncryption": "Szyfrowanie TLS",
+    "trustStripe": "Płatności Stripe"
   },
   "formats": {
     "title": "Jeden tool. Trzy formaty.",
@@ -67,6 +72,10 @@
       "title": "Bezpieczeństwo",
       "description": "Szyfrowane hasła, wygasające linki, izolacja danych między organizacjami."
     }
+  },
+  "midCta": {
+    "cta": "Stwórz pierwszą recenzję — za darmo",
+    "ctaMicro": "Bez karty kredytowej · Rejestracja w 5 sekund"
   },
   "audience": {
     "title": "Dla kogo?",
@@ -141,6 +150,7 @@
       "monthlyPrice": "€19",
       "yearlyPrice": "€15",
       "yearlyDiscount": "Oszczędź 21%",
+      "popular": "Popularny wybór",
       "features": [
         "15 aktywnych review",
         "10 konwersji 3D CAD/mies.",
@@ -149,8 +159,7 @@
         "5 członków organizacji",
         "Recenzenci bez limitu"
       ],
-      "cta": "Wybierz Pro",
-      "comingSoon": "Wkrótce"
+      "cta": "Wybierz Pro"
     },
     "team": {
       "name": "Team",
@@ -165,18 +174,19 @@
         "15 członków organizacji",
         "Recenzenci bez limitu"
       ],
-      "cta": "Wybierz Team",
-      "comingSoon": "Wkrótce"
+      "cta": "Wybierz Team"
     }
   },
   "finalCta": {
     "title": "Zacznij zbierać feedback w 30 sekund",
     "subtitle": "Bez karty kredytowej. Bez zobowiązań.",
-    "cta": "Stwórz darmowe konto"
+    "cta": "Stwórz pierwszą recenzję — za darmo",
+    "ctaMicro": "Bez karty kredytowej · Rejestracja przez Google w 5 sekund"
   },
   "footer": {
     "privacy": "Polityka prywatności",
     "terms": "Regulamin",
+    "cookies": "Ustawienia cookies",
     "contact": "Kontakt"
   }
 }

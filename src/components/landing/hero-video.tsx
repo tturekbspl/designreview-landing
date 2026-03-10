@@ -28,7 +28,7 @@ export function HeroVideo() {
   }, [active]);
 
   return (
-    <div className="mx-auto mt-16 max-w-4xl">
+    <div className="mx-auto max-w-4xl">
       <div className="rounded-xl border bg-muted/50 p-2 sm:p-3">
         <div className="relative aspect-video overflow-hidden rounded-lg bg-black">
           <video
