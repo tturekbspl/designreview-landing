@@ -22,10 +22,10 @@ export function Footer({ dict, locale, otherLocale }: FooterProps) {
           <Image src="/logo.svg" alt="revievv" width={100} height={23} />
         </Link>
         <nav className="flex items-center gap-6 text-sm text-muted-foreground">
-          <Link href="/privacy" className="hover:text-foreground transition-colors">
+          <Link href={`/${locale}/privacy`} className="hover:text-foreground transition-colors">
             {dict.privacy}
           </Link>
-          <Link href="/terms" className="hover:text-foreground transition-colors">
+          <Link href={`/${locale}/terms`} className="hover:text-foreground transition-colors">
             {dict.terms}
           </Link>
           <button

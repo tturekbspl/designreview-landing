@@ -4,9 +4,6 @@ import { locales, defaultLocale } from "@/lib/i18n";
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  const skipPaths = ["/privacy", "/terms"];
-  if (skipPaths.some((p) => pathname.startsWith(p))) return;
-
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
