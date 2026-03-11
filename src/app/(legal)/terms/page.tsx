@@ -74,7 +74,7 @@ export default function TermsPage() {
             <li><strong>Pro:</strong> €19/mies. (rozliczenie miesięczne) lub €15/mies. (rozliczenie roczne). Limity: 15 aktywnych Review, 10 konwersji 3D CAD/mies., Review PDF i obrazów bez limitu, 5 GB przestrzeni, recenzenci bez limitu.</li>
             <li><strong>Team:</strong> €49/mies. (rozliczenie miesięczne) lub €39/mies. (rozliczenie roczne). Limity: 50 aktywnych Review, 50 konwersji 3D CAD/mies., Review PDF i obrazów bez limitu, 50 GB przestrzeni, recenzenci bez limitu.</li>
           </ul>
-          <p>Aktualny cennik dostępny jest zawsze pod adresem: revievv.io/cennik.</p>
+          <p>Aktualny cennik dostępny jest zawsze pod adresem: <a href="https://revievv.io/pl#pricing" className="underline">revievv.io/pl#pricing</a>.</p>
           <p>Płatności obsługiwane są przez: <strong>Stripe, LLC</strong> (dawniej Stripe, Inc.; przekształcone 3 stycznia 2026 r.). W regionie EMEA transakcje przetwarzane są przez Stripe Payments Europe, Limited (SPEL) z siedzibą w Irlandii.</p>
           <p>Faktura VAT wystawiana jest na dane podane podczas zakupu.</p>
           <p><strong>Faktury ustrukturyzowane (KSeF):</strong> Od 1 lutego 2026 r. faktury VAT w relacjach B2B na terytorium Polski wystawiane są w formie faktur ustrukturyzowanych za pośrednictwem Krajowego Systemu e-Faktur (KSeF). Faktura jest uznana za doręczoną z chwilą nadania jej numeru identyfikującego w KSeF. Wizualizacja faktury dostępna w panelu aplikacji ma charakter wyłącznie informacyjny i nie stanowi faktury w rozumieniu przepisów podatkowych. Obowiązek korzystania z KSeF jest wdrażany etapowo: od 1 lutego 2026 r. dla dużych podatników (przychód powyżej 200 mln PLN), od 1 kwietnia 2026 r. dla pozostałych czynnych podatników VAT, od 1 stycznia 2027 r. dla mikroprzedsiębiorców. Faktury B2C nie podlegają obowiązkowi KSeF.</p>
@@ -293,7 +293,7 @@ export default function TermsPage() {
           <p>Niniejsza umowa podlega prawu polskiemu i RODO.</p>
 
           <h1>Załączniki</h1>
-          <p>Załącznik nr 1: Cennik (revievv.io/cennik – aktualizowany osobno)</p>
+          <p>Załącznik nr 1: Cennik (<a href="https://revievv.io/pl#pricing" className="underline">revievv.io/pl#pricing</a> – aktualizowany osobno)</p>
         </article>
       </main>
     </div>
