@@ -46,8 +46,8 @@ function PolishContent() {
     <>
       <h1 className="!text-3xl !mt-0 !mb-2">Regulamin Usługi</h1>
       <p className="!text-base"><strong>revievv</strong>.io</p>
-      <p>Data obowiązywania: 10.03.2026</p>
-      <p>Wersja: 2.2</p>
+      <p>Data obowiązywania: 13.03.2026</p>
+      <p>Wersja: 2.3</p>
 
       <h1>§1. Definicje</h1>
       <p>Użyte w Regulaminie pojęcia oznaczają:</p>
@@ -61,14 +61,12 @@ function PolishContent() {
         <li><strong>Plan</strong> – wybrany przez Użytkownika pakiet funkcjonalności i limitów: Starter (bezpłatny), Pro lub Team.</li>
         <li><strong>Serwis</strong> – platforma dostępna pod adresem revievv.io oraz app.revievv.io.</li>
         <li><strong>Promocja</strong> – czasowa oferta specjalna (kod rabatowy, trial, early-bird itp.) na warunkach określonych w §4.6.</li>
-        <li><strong>Przedsiębiorca na prawach konsumenta</strong> – osoba fizyczna prowadząca działalność gospodarczą wpisaną do CEIDG, zawierająca umowę bezpośrednio związaną z tą działalnością, która nie ma dla niej charakteru zawodowego (art. 7aa ustawy o prawach konsumenta).</li>
       </ul>
 
       <h1>§2. Postanowienia ogólne</h1>
       <p>Niniejszy Regulamin określa zasady korzystania z Serwisu revievv.io. Korzystając z Serwisu, Użytkownik akceptuje Regulamin w całości.</p>
       <p>Serwis jest przeznaczony dla podmiotów profesjonalnych (B2B) oraz osób prowadzących działalność zawodową lub twórczą.</p>
-      <p><strong>Konsumenci i przedsiębiorcy na prawach konsumenta:</strong> Korzystanie z Serwisu przez konsumentów oraz przedsiębiorców na prawach konsumenta (art. 7aa ustawy z dnia 30 maja 2014 r. o prawach konsumenta) jest dopuszczalne. W przypadku takich osób zastosowanie znajdują obowiązujące przepisy o ochronie konsumentów, w tym prawo do odstąpienia od umowy zawartej na odległość w terminie 14 dni, ochrona przed klauzulami niedozwolonymi oraz zasady odpowiedzialności za zgodność treści cyfrowej z umową.</p>
-      <p><strong>Oświadczenie o charakterze zawodowym (dotyczy JDG):</strong> Osoba fizyczna prowadząca jednoosobową działalność gospodarczą (JDG) może przy zawarciu umowy złożyć oświadczenie, że umowa ma dla niej charakter zawodowy, weryfikowany w oparciu o kody PKD wpisane w CEIDG. Złożenie takiego oświadczenia powoduje wyłączenie stosowania przepisów o ochronie konsumentów. Oświadczenie jest dobrowolne; Usługodawca nie może uzależnić zawarcia umowy od jego złożenia.</p>
+      <p><strong>Plany płatne wyłącznie dla podmiotów gospodarczych:</strong> Plany płatne (Pro, Team) są dostępne wyłącznie dla podmiotów gospodarczych. Dokonując zakupu Planu płatnego, Użytkownik potwierdza, że działa jako podmiot gospodarczy, co jest weryfikowane poprzez obowiązkowe podanie numeru identyfikacji podatkowej (NIP / VAT ID).</p>
       <p>Do korzystania z Serwisu wymagane jest posiadanie urządzenia z aktualną przeglądarką internetową obsługującą WebGL (dla modeli 3D) oraz połączenie z internetem.</p>
 
       <h1>§3. Rejestracja i konto Użytkownika</h1>
@@ -99,6 +97,7 @@ function PolishContent() {
         <li><strong>Pro:</strong> €19/mies. (rozliczenie miesięczne) lub €15/mies. (rozliczenie roczne). Limity: 15 aktywnych Review, 10 konwersji 3D CAD/mies., Review PDF i obrazów bez limitu, 5 GB przestrzeni, recenzenci bez limitu.</li>
         <li><strong>Team:</strong> €49/mies. (rozliczenie miesięczne) lub €39/mies. (rozliczenie roczne). Limity: 50 aktywnych Review, 50 konwersji 3D CAD/mies., Review PDF i obrazów bez limitu, 50 GB przestrzeni, recenzenci bez limitu.</li>
       </ul>
+      <p>Plany płatne są dostępne wyłącznie dla podmiotów gospodarczych. Do dokonania zakupu wymagane jest podanie ważnego numeru identyfikacji podatkowej (NIP / VAT ID).</p>
       <p>Aktualny cennik dostępny jest zawsze pod adresem: <a href="https://revievv.io/pl#pricing" className="underline">revievv.io/pl#pricing</a>.</p>
       <p>Płatności obsługiwane są przez: <strong>Stripe, LLC</strong> (dawniej Stripe, Inc.; przekształcone 3 stycznia 2026 r.). W regionie EMEA transakcje przetwarzane są przez Stripe Payments Europe, Limited (SPEL) z siedzibą w Irlandii.</p>
       <p>Faktura VAT wystawiana jest na dane podane podczas zakupu.</p>
@@ -108,7 +107,7 @@ function PolishContent() {
       <h2>4.3 Anulowanie subskrypcji</h2>
       <p>Użytkownik może anulować subskrypcję w dowolnym momencie w ustawieniach konta (Subskrypcja → Anuluj plan). Anulowanie jest skuteczne od następnego okresu rozliczeniowego — do końca opłaconego okresu Użytkownik zachowuje pełny dostęp do funkcji Planu płatnego.</p>
       <p>Po zakończeniu opłaconego okresu konto automatycznie przechodzi na Plan Starter. Pliki przekraczające limity Planu Darmowego mogą zostać zablokowane do pobrania — Użytkownik zostanie o tym poinformowany z wyprzedzeniem 14 dni drogą mailową.</p>
-      <p>Usunięcie konta (§12.1) jest równoznaczne z natychmiastowym anulowaniem subskrypcji bez prawa do zwrotu za niewykorzystany okres, chyba że przepisy prawa stanowią inaczej (w szczególności prawo do odstąpienia od umowy przysługujące konsumentom i przedsiębiorcom na prawach konsumenta).</p>
+      <p>Usunięcie konta (§12.1) jest równoznaczne z natychmiastowym anulowaniem subskrypcji bez prawa do zwrotu za niewykorzystany okres.</p>
 
       <h2>4.4 Zwroty</h2>
       <p>Zwrot płatności możliwy jest w ciągu 14 dni od daty pierwszego obciążenia w danym cyklu rozliczeniowym, pod warunkiem że Użytkownik nie korzystał aktywnie z funkcji Planu płatnego w tym okresie (tj. nie wgrał nowych plików ani nie utworzył nowych Review).</p>
@@ -119,7 +118,6 @@ function PolishContent() {
       </ul>
       <p>Wniosek zostanie rozpatrzony w ciągu 5 dni roboczych. Zwrot realizowany jest na metodę płatności użytą podczas zakupu (czas zwrotu na kartę: zwykle 5–10 dni roboczych po stronie banku).</p>
       <p>Zwroty nie przysługują: za okresy objęte Promocją (chyba że warunki Promocji stanowią inaczej), ani w przypadku zawieszenia lub usunięcia konta z powodu naruszenia Regulaminu.</p>
-      <p><strong>Prawo odstąpienia (konsumenci i JDG na prawach konsumenta):</strong> Konsumentom oraz przedsiębiorcom na prawach konsumenta przysługuje prawo do odstąpienia od umowy zawartej na odległość w terminie 14 dni od dnia zawarcia umowy, bez podawania przyczyny. Oświadczenie o odstąpieniu można złożyć drogą mailową na adres billing@revievv.io. W przypadku żądań rozpoczęcia świadczenia usługi cyfrowej przed upływem terminu odstąpienia, Użytkownik zostanie poproszony o wyrażenie wyraźnej zgody oraz przyjęcie do wiadomości utraty prawa do odstąpienia po pełnym wykonaniu usługi (art. 38 pkt 13 ustawy o prawach konsumenta).</p>
       <p>revievv.io nie sprzedaje towarów fizycznych — polityka zwrotów towarów materialnych nie ma zastosowania.</p>
 
       <h2>4.5 Spory dotyczące rozliczeń</h2>
@@ -214,7 +212,7 @@ function PolishContent() {
         <li>Usługodawca nie ponosi odpowiedzialności za utratę danych wynikającą z działania Użytkownika;</li>
         <li>Łączna odpowiedzialność Usługodawcy jest ograniczona do kwoty opłat faktycznie wniesionych przez Użytkownika w ciągu ostatnich 12 miesięcy.</li>
       </ul>
-      <p>Powyższe ograniczenia nie wyłączają odpowiedzialności w przypadkach, gdy bezwzględnie obowiązujące przepisy prawa nie dopuszczają takiego wyłączenia (w szczególności w relacjach z konsumentami i przedsiębiorcami na prawach konsumenta).</p>
+      <p>Powyższe ograniczenia nie wyłączają odpowiedzialności w przypadkach, gdy bezwzględnie obowiązujące przepisy prawa nie dopuszczają takiego wyłączenia.</p>
       <p><strong>Brak monitorowania Treści:</strong> Usługodawca nie monitoruje, nie skanuje ani nie analizuje zawartości plików i nie ponosi odpowiedzialności za naruszenia praw osób trzecich wynikające z Treści wgranych przez Użytkownika.</p>
       <p><strong>Odpowiedzialność za ustawienia dostępu:</strong> Użytkownik ponosi wyłączną odpowiedzialność za konfigurację ustawień dostępu do swoich Review, w tym za: wybór między dostępem publicznym a ograniczonym, zarządzanie listą Recenzentów, daty wygaśnięcia oraz udostępnianie linków osobom trzecim.</p>
 
@@ -228,7 +226,6 @@ function PolishContent() {
         <li>Korzystaniem z Serwisu niezgodnie z Regulaminem.</li>
       </ul>
       <p>Usługodawca niezwłocznie powiadomi Użytkownika o roszczeniu i umożliwi udział w obronie. Klauzula obowiązuje również po rozwiązaniu umowy.</p>
-      <p><strong>Wyłączenie dla konsumentów:</strong> W zakresie, w jakim obowiązujące przepisy nie dopuszczają klauzul indemnifikacyjnych wobec konsumentów lub przedsiębiorców na prawach konsumenta, postanowienia niniejszego paragrafu stosuje się wyłącznie do Użytkowników działających w charakterze profesjonalnym (B2B).</p>
 
       <h1>§11. Zmiany Regulaminu</h1>
       <p>Zastrzegamy sobie prawo do zmiany Regulaminu. O zmianach poinformujemy drogą mailową lub komunikatem w aplikacji z wyprzedzeniem co najmniej 30 dni.</p>
@@ -251,7 +248,6 @@ function PolishContent() {
       <h1>§13. Prawo właściwe i rozstrzyganie sporów</h1>
       <p>Regulamin podlega prawu polskiemu.</p>
       <p>Wszelkie spory strony będą starały się rozwiązać polubownie. W braku porozumienia spory rozstrzygane są przez sąd właściwy dla siedziby Usługodawcy.</p>
-      <p><strong>Pozasądowe rozstrzyganie sporów (konsumenci i JDG):</strong> Użytkownicy będący konsumentami lub przedsiębiorcami na prawach konsumenta mają prawo do skorzystania z pozasądowych metod rozstrzygania sporów za pośrednictwem powiatowych rzeczników konsumentów lub certyfikowanych organów ADR.</p>
 
       <h1>§14. Kontakt i obsługa klienta</h1>
       <ul>
@@ -328,8 +324,8 @@ function EnglishContent() {
     <>
       <h1 className="!text-3xl !mt-0 !mb-2">Terms of Service</h1>
       <p className="!text-base"><strong>revievv</strong>.io</p>
-      <p>Effective date: 10 March 2026</p>
-      <p>Version: 2.2</p>
+      <p>Effective date: 13 March 2026</p>
+      <p>Version: 2.3</p>
 
       <h1>§1. Definitions</h1>
       <p>The terms used in these Terms of Service shall have the following meanings:</p>
@@ -343,14 +339,12 @@ function EnglishContent() {
         <li><strong>Plan</strong> – the package of features and limits selected by the User: Starter (free), Pro, or Team.</li>
         <li><strong>Service / Platform</strong> – the platform available at revievv.io and app.revievv.io.</li>
         <li><strong>Promotion</strong> – a time-limited special offer (discount code, trial, early-bird, etc.) subject to the terms set out in §4.6.</li>
-        <li><strong>Sole proprietor with consumer rights</strong> – a natural person conducting business activity registered in the Central Register and Information on Economic Activity (CEIDG), entering into a contract directly related to that business activity, where such contract is not of a professional nature for that person (Art. 7aa of the Consumer Rights Act).</li>
       </ul>
 
       <h1>§2. General Provisions</h1>
       <p>These Terms of Service set out the rules for using the revievv.io Platform. By using the Platform, the User accepts these Terms in full.</p>
       <p>The Platform is intended for professional entities (B2B) and persons conducting professional or creative activity.</p>
-      <p><strong>Consumers and sole proprietors with consumer rights:</strong> Use of the Platform by consumers and sole proprietors with consumer rights (Art. 7aa of the Act of 30 May 2014 on Consumer Rights) is permitted. In the case of such persons, mandatory consumer protection provisions shall apply, including the right to withdraw from a distance contract within 14 days, protection against unfair contract terms, and rules on conformity of digital content with the contract.</p>
-      <p><strong>Declaration of professional nature (applicable to sole traders):</strong> A natural person conducting a sole proprietorship may, upon entering into a contract, declare that the contract is of a professional nature, verified on the basis of Polish Classification of Business Activities (PKD) codes entered in the CEIDG. Making such a declaration results in the exclusion of consumer protection provisions. The declaration is voluntary; the Service Provider may not make the conclusion of the contract conditional upon its submission.</p>
+      <p><strong>Paid Plans for business entities only:</strong> Paid Plans (Pro, Team) are available exclusively to business entities. By purchasing a Paid Plan, the User confirms they are acting as a business entity, which is verified by the mandatory provision of a VAT identification number (NIP / VAT ID).</p>
       <p>Using the Platform requires a device with an up-to-date web browser supporting WebGL (for 3D models) and an internet connection.</p>
 
       <h1>§3. Registration and User Account</h1>
@@ -381,6 +375,7 @@ function EnglishContent() {
         <li><strong>Pro:</strong> &euro;19/mo (monthly billing) or &euro;15/mo (annual billing). Limits: 15 active Reviews, 10 3D CAD conversions/mo, unlimited PDF &amp; image Reviews, 5 GB storage, unlimited reviewers.</li>
         <li><strong>Team:</strong> &euro;49/mo (monthly billing) or &euro;39/mo (annual billing). Limits: 50 active Reviews, 50 3D CAD conversions/mo, unlimited PDF &amp; image Reviews, 50 GB storage, unlimited reviewers.</li>
       </ul>
+      <p>Paid Plans are available exclusively to business entities. A valid VAT identification number (NIP / VAT ID) is required to complete the purchase.</p>
       <p>The current pricing is always available at: <a href="https://revievv.io/en#pricing" className="underline">revievv.io/en#pricing</a>.</p>
       <p>Payments are processed by: <strong>Stripe, LLC</strong> (formerly Stripe, Inc.; converted on 3 January 2026). In the EMEA region, transactions are processed by Stripe Payments Europe, Limited (SPEL), registered in Ireland.</p>
       <p>A VAT invoice is issued based on the data provided at the time of purchase.</p>
@@ -390,7 +385,7 @@ function EnglishContent() {
       <h2>4.3 Subscription Cancellation</h2>
       <p>The User may cancel the subscription at any time in the account settings (Subscription &rarr; Cancel plan). Cancellation takes effect from the next billing period — until the end of the paid period, the User retains full access to Paid Plan features.</p>
       <p>After the paid period ends, the account automatically reverts to the Starter Plan. Files exceeding the Free Plan limits may be locked for download — the User will be notified of this 14 days in advance by email.</p>
-      <p>Deleting the account (§12.1) is equivalent to immediate cancellation of the subscription without the right to a refund for the unused period, unless the law provides otherwise (in particular, the right of withdrawal available to consumers and sole proprietors with consumer rights).</p>
+      <p>Deleting the account (§12.1) is equivalent to immediate cancellation of the subscription without the right to a refund for the unused period.</p>
 
       <h2>4.4 Refunds</h2>
       <p>A refund is available within 14 days of the date of the first charge in a given billing cycle, provided that the User has not actively used Paid Plan features during that period (i.e., has not uploaded new files or created new Reviews).</p>
@@ -401,7 +396,6 @@ function EnglishContent() {
       </ul>
       <p>The request will be processed within 5 business days. The refund is issued to the payment method used at the time of purchase (card refund time: typically 5–10 business days on the bank&apos;s side).</p>
       <p>Refunds are not available: for periods covered by a Promotion (unless the Promotion terms provide otherwise), or in the event of account suspension or deletion due to a breach of these Terms.</p>
-      <p><strong>Right of withdrawal (consumers and sole proprietors with consumer rights):</strong> Consumers and sole proprietors with consumer rights have the right to withdraw from a distance contract within 14 days of the date of conclusion of the contract, without giving any reason. The withdrawal statement may be submitted by email to billing@revievv.io. If the User requests commencement of the digital service before the withdrawal period expires, the User will be asked to give express consent and to acknowledge the loss of the right of withdrawal upon full performance of the service (Art. 38(13) of the Consumer Rights Act).</p>
       <p>revievv.io does not sell physical goods — the physical goods return policy does not apply.</p>
 
       <h2>4.5 Billing Disputes</h2>
@@ -496,7 +490,7 @@ function EnglishContent() {
         <li>The Service Provider shall not be liable for data loss resulting from the User&apos;s actions;</li>
         <li>The Service Provider&apos;s aggregate liability is limited to the amount of fees actually paid by the User in the preceding 12 months.</li>
       </ul>
-      <p>The above limitations do not exclude liability in cases where mandatory provisions of law do not permit such exclusion (in particular in relations with consumers and sole proprietors with consumer rights).</p>
+      <p>The above limitations do not exclude liability in cases where mandatory provisions of law do not permit such exclusion.</p>
       <p><strong>No Content monitoring:</strong> The Service Provider does not monitor, scan, or analyse the content of files and is not liable for infringements of third-party rights arising from Content uploaded by the User.</p>
       <p><strong>Responsibility for access settings:</strong> The User bears sole responsibility for the configuration of access settings for their Reviews, including: the choice between public and restricted access, management of the Reviewer list, expiration dates, and sharing links with third parties.</p>
 
@@ -510,7 +504,6 @@ function EnglishContent() {
         <li>Using the Platform in breach of these Terms.</li>
       </ul>
       <p>The Service Provider will promptly notify the User of any claim and allow participation in the defence. This clause survives termination of the contract.</p>
-      <p><strong>Exclusion for consumers:</strong> To the extent that applicable law does not permit indemnification clauses against consumers or sole proprietors with consumer rights, the provisions of this section apply only to Users acting in a professional capacity (B2B).</p>
 
       <h1>§11. Changes to the Terms</h1>
       <p>We reserve the right to amend these Terms. We will notify you of changes by email or by an in-app notification at least 30 days in advance.</p>
@@ -533,7 +526,6 @@ function EnglishContent() {
       <h1>§13. Governing Law and Dispute Resolution</h1>
       <p>These Terms are governed by Polish law.</p>
       <p>The parties shall endeavour to resolve all disputes amicably. In the absence of agreement, disputes shall be resolved by the court having jurisdiction over the Service Provider&apos;s registered address.</p>
-      <p><strong>Alternative dispute resolution (consumers and sole traders):</strong> Users who are consumers or sole proprietors with consumer rights have the right to use alternative dispute resolution (ADR) methods through county consumer ombudsmen or certified ADR bodies.</p>
 
       <h1>§14. Contact and Customer Service</h1>
       <ul>
