@@ -11,11 +11,12 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Check } from "lucide-react";
+import stripePrices from "@/data/stripe-prices.json";
 
 interface PricingTier {
   name: string;
-  monthlyPrice: string;
-  yearlyPrice: string;
+  monthlyPrice?: string;
+  yearlyPrice?: string;
   yearlyDiscount?: string;
   popular?: string;
   features: string[];
@@ -29,15 +30,35 @@ interface PricingProps {
     monthly: string;
     yearly: string;
     perMonth: string;
+    saveLabel: string;
     starter: PricingTier;
     pro: PricingTier;
     team: PricingTier;
   };
 }
 
+function formatPrice(currency: string, amount: number): string {
+  const symbol = currency === "eur" ? "€" : currency.toUpperCase() + " ";
+  return `${symbol}${amount}`;
+}
+
 export function Pricing({ dict }: PricingProps) {
   const [yearly, setYearly] = useState(false);
-  const tiers = [dict.starter, dict.pro, dict.team];
+
+  const pro = {
+    ...dict.pro,
+    monthlyPrice: formatPrice(stripePrices.pro.currency, stripePrices.pro.monthly),
+    yearlyPrice: formatPrice(stripePrices.pro.currency, stripePrices.pro.yearly),
+    yearlyDiscount: `${dict.saveLabel} ${stripePrices.pro.yearlyDiscount}%`,
+  };
+  const team = {
+    ...dict.team,
+    monthlyPrice: formatPrice(stripePrices.team.currency, stripePrices.team.monthly),
+    yearlyPrice: formatPrice(stripePrices.team.currency, stripePrices.team.yearly),
+    yearlyDiscount: `${dict.saveLabel} ${stripePrices.team.yearlyDiscount}%`,
+  };
+
+  const tiers = [dict.starter, pro, team];
 
   return (
     <section id="pricing" className="mx-auto max-w-6xl px-4 py-24 sm:px-6">

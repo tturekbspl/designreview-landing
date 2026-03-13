@@ -131,6 +131,7 @@
     "monthly": "Miesięcznie",
     "yearly": "Rocznie",
     "perMonth": "/mies.",
+    "saveLabel": "Oszczędź",
     "starter": {
       "name": "Starter",
       "monthlyPrice": "€0",
@@ -147,9 +148,6 @@
     },
     "pro": {
       "name": "Pro",
-      "monthlyPrice": "€19",
-      "yearlyPrice": "€15",
-      "yearlyDiscount": "Oszczędź 21%",
       "popular": "Popularny wybór",
       "features": [
         "15 aktywnych review",
@@ -163,9 +161,6 @@
     },
     "team": {
       "name": "Team",
-      "monthlyPrice": "€49",
-      "yearlyPrice": "€39",
-      "yearlyDiscount": "Oszczędź 20%",
       "features": [
         "50 aktywnych review",
         "50 konwersji 3D CAD/mies.",

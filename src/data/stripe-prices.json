@@ -1,0 +1,14 @@
+{
+  "pro": {
+    "monthly": 19,
+    "yearly": 15,
+    "yearlyDiscount": 21,
+    "currency": "eur"
+  },
+  "team": {
+    "monthly": 49,
+    "yearly": 39,
+    "yearlyDiscount": 20,
+    "currency": "eur"
+  }
+}
