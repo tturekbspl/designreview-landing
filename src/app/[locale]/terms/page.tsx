@@ -47,7 +47,7 @@ function PolishContent() {
       <h1 className="!text-3xl !mt-0 !mb-2">Regulamin Usługi</h1>
       <p className="!text-base"><strong>revievv</strong>.io</p>
       <p>Data obowiązywania: 13.03.2026</p>
-      <p>Wersja: 2.3</p>
+      <p>Wersja: 2.4</p>
 
       <h1>§1. Definicje</h1>
       <p>Użyte w Regulaminie pojęcia oznaczają:</p>
@@ -90,6 +90,7 @@ function PolishContent() {
         <li>Recenzenci / komentujący: bez limitu</li>
       </ul>
       <p>Limity Planu Starter mogą ulec zmianie z zachowaniem odpowiedniego okresu wypowiedzenia (§11).</p>
+      <p>Jeden Użytkownik (identyfikowany na podstawie adresu email) może być właścicielem tylko jednej Organizacji korzystającej z Planu Starter. Tworzenie wielu bezpłatnych Organizacji przez tego samego Użytkownika jest zabronione. Ograniczenie to nie dotyczy Organizacji korzystających z Planów płatnych — Użytkownik może być właścicielem dowolnej liczby Organizacji na Planach płatnych.</p>
 
       <h2>4.2 Plany płatne</h2>
       <p>Dostępne Plany płatne i ich limity:</p>
@@ -325,7 +326,7 @@ function EnglishContent() {
       <h1 className="!text-3xl !mt-0 !mb-2">Terms of Service</h1>
       <p className="!text-base"><strong>revievv</strong>.io</p>
       <p>Effective date: 13 March 2026</p>
-      <p>Version: 2.3</p>
+      <p>Version: 2.4</p>
 
       <h1>§1. Definitions</h1>
       <p>The terms used in these Terms of Service shall have the following meanings:</p>
@@ -368,6 +369,7 @@ function EnglishContent() {
         <li>Reviewers / commenters: unlimited</li>
       </ul>
       <p>Starter Plan limits may be changed subject to an appropriate notice period (§11).</p>
+      <p>A single User (identified by email address) may own only one Organisation on the Starter Plan. Creating multiple free Organisations by the same User is prohibited. This restriction does not apply to Organisations on Paid Plans — a User may own any number of Organisations on Paid Plans.</p>
 
       <h2>4.2 Paid Plans</h2>
       <p>Available Paid Plans and their limits:</p>
