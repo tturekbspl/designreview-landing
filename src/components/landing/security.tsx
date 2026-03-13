@@ -1,4 +1,4 @@
-import { ShieldCheck, Lock, Timer, Users, Eye, KeyRound } from "lucide-react";
+import { ShieldCheck, Lock, Timer, Users, Eye, KeyRound, BrainCog } from "lucide-react";
 
 interface SecurityItem {
   title: string;
@@ -15,6 +15,7 @@ interface SecurityProps {
     isolation: SecurityItem;
     access: SecurityItem;
     auth: SecurityItem;
+    noAi: SecurityItem;
   };
 }
 
@@ -26,6 +27,7 @@ export function Security({ dict }: SecurityProps) {
     { icon: Users, ...dict.isolation },
     { icon: Eye, ...dict.access },
     { icon: KeyRound, ...dict.auth },
+    { icon: BrainCog, ...dict.noAi },
   ];
 
   return (

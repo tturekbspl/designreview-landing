@@ -14,7 +14,8 @@
     "ctaMicro": "Bez karty kredytowej · Rejestracja w 5 sekund",
     "trustGdpr": "Zgodność z GDPR",
     "trustEncryption": "Szyfrowanie TLS",
-    "trustStripe": "Płatności Stripe"
+    "trustStripe": "Płatności Stripe",
+    "trustEu": "Serwery w UE (Finlandia)"
   },
   "formats": {
     "title": "Jeden tool. Trzy formaty.",
@@ -103,7 +104,7 @@
     "subtitle": "Bezpieczeństwo jest wbudowane w każdą warstwę aplikacji — od przechowywania plików po kontrolę dostępu.",
     "encryption": {
       "title": "Szyfrowane połączenia",
-      "description": "Cała komunikacja odbywa się przez HTTPS/TLS. Pliki przechowywane w szyfrowanej chmurze."
+      "description": "Cała komunikacja odbywa się przez HTTPS/TLS. Pliki szyfrowane AES-256 at rest w Cloudflare R2."
     },
     "passwords": {
       "title": "Hashowane hasła",
@@ -124,6 +125,10 @@
     "auth": {
       "title": "Autoryzacja na każdym kroku",
       "description": "Każde żądanie API weryfikuje sesję, członkostwo w organizacji i uprawnienia do konkretnego review."
+    },
+    "noAi": {
+      "title": "Twoje pliki nie trenują AI",
+      "description": "Nigdy nie wykorzystujemy przesłanych plików do trenowania modeli AI. Twoja własność intelektualna pozostaje wyłącznie Twoja."
     }
   },
   "pricing": {
@@ -171,6 +176,11 @@
       ],
       "cta": "Wybierz Team"
     }
+  },
+  "pricingTrust": {
+    "gdpr": "Zgodność z GDPR",
+    "euHosted": "Serwery w UE",
+    "encrypted": "Szyfrowanie AES-256"
   },
   "finalCta": {
     "title": "Zacznij zbierać feedback w 30 sekund",

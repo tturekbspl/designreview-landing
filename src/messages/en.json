@@ -14,7 +14,8 @@
     "ctaMicro": "No credit card required · Sign up in 5 seconds",
     "trustGdpr": "GDPR compliant",
     "trustEncryption": "TLS encryption",
-    "trustStripe": "Stripe payments"
+    "trustStripe": "Stripe payments",
+    "trustEu": "EU-hosted (Finland)"
   },
   "formats": {
     "title": "One tool. Three formats.",
@@ -103,7 +104,7 @@
     "subtitle": "Security is built into every layer of the application — from file storage to access control.",
     "encryption": {
       "title": "Encrypted connections",
-      "description": "All communication happens over HTTPS/TLS. Files are stored in encrypted cloud storage."
+      "description": "All communication happens over HTTPS/TLS. Files are encrypted AES-256 at rest on Cloudflare R2."
     },
     "passwords": {
       "title": "Hashed passwords",
@@ -124,6 +125,10 @@
     "auth": {
       "title": "Authorization at every step",
       "description": "Every API request verifies session, organization membership, and permissions for the specific review."
+    },
+    "noAi": {
+      "title": "Your files don't train AI",
+      "description": "We never use uploaded files to train AI models. Your intellectual property remains yours alone."
     }
   },
   "pricing": {
@@ -171,6 +176,11 @@
       ],
       "cta": "Choose Team"
     }
+  },
+  "pricingTrust": {
+    "gdpr": "GDPR compliant",
+    "euHosted": "EU-hosted",
+    "encrypted": "AES-256 encryption"
   },
   "finalCta": {
     "title": "Start collecting feedback in 30 seconds",

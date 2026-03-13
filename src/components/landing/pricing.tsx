@@ -10,7 +10,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Check } from "lucide-react";
+import { Check, ShieldCheck, Globe, Lock } from "lucide-react";
 import stripePrices from "@/data/stripe-prices.json";
 
 interface PricingTier {
@@ -24,6 +24,12 @@ interface PricingTier {
   comingSoon?: string;
 }
 
+interface PricingTrustDict {
+  gdpr: string;
+  euHosted: string;
+  encrypted: string;
+}
+
 interface PricingProps {
   dict: {
     title: string;
@@ -35,6 +41,7 @@ interface PricingProps {
     pro: PricingTier;
     team: PricingTier;
   };
+  trustDict?: PricingTrustDict;
 }
 
 function formatPrice(currency: string, amount: number): string {
@@ -42,7 +49,7 @@ function formatPrice(currency: string, amount: number): string {
   return `${symbol}${amount}`;
 }
 
-export function Pricing({ dict }: PricingProps) {
+export function Pricing({ dict, trustDict }: PricingProps) {
   const [yearly, setYearly] = useState(false);
 
   const pro = {
@@ -162,6 +169,23 @@ export function Pricing({ dict }: PricingProps) {
           );
         })}
       </div>
+
+      {trustDict && (
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
+          <span className="flex items-center gap-1.5">
+            <ShieldCheck className="h-4 w-4" />
+            {trustDict.gdpr}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Globe className="h-4 w-4" />
+            {trustDict.euHosted}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Lock className="h-4 w-4" />
+            {trustDict.encrypted}
+          </span>
+        </div>
+      )}
     </section>
   );
 }

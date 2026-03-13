@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { HeroVideo } from "./hero-video";
-import { ShieldCheck, Lock, CreditCard } from "lucide-react";
+import { ShieldCheck, Lock, CreditCard, Globe } from "lucide-react";
 
 interface HeroProps {
   dict: {
@@ -14,6 +14,7 @@ interface HeroProps {
     trustGdpr: string;
     trustEncryption: string;
     trustStripe: string;
+    trustEu: string;
   };
 }
 
@@ -58,6 +59,10 @@ export function Hero({ dict }: HeroProps) {
             <span className="flex items-center gap-1.5">
               <CreditCard className="h-4 w-4" />
               {dict.trustStripe}
+            </span>
+            <span className="flex items-center gap-1.5">
+              <Globe className="h-4 w-4" />
+              {dict.trustEu}
             </span>
           </div>
         </div>

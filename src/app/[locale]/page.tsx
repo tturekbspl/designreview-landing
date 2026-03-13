@@ -40,7 +40,7 @@ export default async function LandingPage({
         <MidCta dict={dict.midCta as any} />
         <Audience dict={dict.audience as any} />
         <Security dict={dict.security as any} />
-        <Pricing dict={dict.pricing as any} />
+        <Pricing dict={dict.pricing as any} trustDict={(dict as any).pricingTrust} />
         <FinalCta dict={dict.finalCta as any} />
       </main>
       <Footer
