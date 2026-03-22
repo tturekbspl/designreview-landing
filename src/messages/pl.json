@@ -72,6 +72,18 @@
     "security": {
       "title": "Bezpieczeństwo",
       "description": "Szyfrowane hasła, wygasające linki, izolacja danych między organizacjami."
+    },
+    "versions": {
+      "title": "Porównywanie wersji",
+      "description": "Wrzuć nową wersję pliku i porównaj ze starą — suwakiem, obok siebie lub nakładką z heatmapą zmian."
+    },
+    "workflow": {
+      "title": "Statusy i workflow",
+      "description": "Każdy pin ma status: otwarty, w toku, rozwiązany. Wieloetapowe zatwierdzanie dla zespołów."
+    },
+    "assembly": {
+      "title": "Drzewo złożeń 3D",
+      "description": "Przeglądaj hierarchię złożenia STEP — rozwijaj podzespoły, ukrywaj części, zaznaczaj elementy."
     }
   },
   "midCta": {

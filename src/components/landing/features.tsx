@@ -5,6 +5,9 @@ import {
   Building2,
   Globe,
   ShieldCheck,
+  GitCompareArrows,
+  CircleCheckBig,
+  Network,
 } from "lucide-react";
 
 interface FeatureItem {
@@ -21,15 +24,21 @@ interface FeaturesProps {
     orgs: FeatureItem;
     browser: FeatureItem;
     security: FeatureItem;
+    versions: FeatureItem;
+    workflow: FeatureItem;
+    assembly: FeatureItem;
   };
 }
 
 export function Features({ dict }: FeaturesProps) {
   const features = [
     { icon: MapPin, ...dict.pins },
+    { icon: GitCompareArrows, ...dict.versions },
+    { icon: CircleCheckBig, ...dict.workflow },
     { icon: Link2, ...dict.sharing },
-    { icon: Zap, ...dict.realtime },
     { icon: Building2, ...dict.orgs },
+    { icon: Network, ...dict.assembly },
+    { icon: Zap, ...dict.realtime },
     { icon: Globe, ...dict.browser },
     { icon: ShieldCheck, ...dict.security },
   ];

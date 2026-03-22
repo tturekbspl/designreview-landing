@@ -72,6 +72,18 @@
     "security": {
       "title": "Security",
       "description": "Encrypted passwords, expiring links, data isolation between organizations."
+    },
+    "versions": {
+      "title": "Version comparison",
+      "description": "Upload a new version and compare with the previous one — swipe slider, side by side, or change heatmap overlay."
+    },
+    "workflow": {
+      "title": "Status & workflow",
+      "description": "Each pin has a status: open, in progress, resolved. Multi-stage approval for teams."
+    },
+    "assembly": {
+      "title": "3D assembly tree",
+      "description": "Browse the STEP assembly hierarchy — expand subassemblies, hide parts, select elements."
     }
   },
   "midCta": {
