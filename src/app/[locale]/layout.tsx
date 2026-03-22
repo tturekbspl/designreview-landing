@@ -146,11 +146,18 @@ export default async function LocaleLayout({
       >
         {children}
         <Script
-          src="https://datafa.st/js/script.js"
-          data-website-id="dfid_8YBKCViKXp5rLTXcEGCJD"
+          defer
           data-domain="revievv.io"
+          src="https://analytics.tomstack.dev/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"
           data-cookieconsent="statistics"
           strategy="afterInteractive"
+        />
+        <Script
+          id="plausible-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }`,
+          }}
         />
       </body>
     </html>
